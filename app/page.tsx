@@ -24,7 +24,7 @@ export default function Home() {
   return (
     <main
       className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 px-6 md:px-20 pb-20 md:py-6 ${
-        scrollY > 0 ? "mt-[140px] -translate-y-28" : "pt-6"
+        scrollY > 0 ? "md:mt-[140px] md:-translate-y-28 max-md:pt-6" : "pt-6"
       }`}
     >
       {topics.map((item, index) => (

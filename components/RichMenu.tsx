@@ -44,7 +44,7 @@ export default function RichMenu() {
             {item.name}
           </p>
           <hr
-            className={`w-full border-[1.5px] border-black translate-y-[11px] opacity-0 group-hover:opacity-20 ${
+            className={`w-full border-[1.5px] border-black translate-y-[11px] opacity-0  lg:group-hover:opacity-20 ${
               menu == item.id && "opacity-100"
             }`}
           />
