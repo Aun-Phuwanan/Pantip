@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 dayjs.locale("th");
 
 export default function Home() {
-  const [scrollY, setScrollY] = useState(0);
+  const [scrollY, setScrollY] = useState<number>(0);
 
   useEffect(() => {
     const handleScroll = () => {
