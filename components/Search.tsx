@@ -38,17 +38,17 @@ export default function Navbar({ scrollY }: { scrollY: number }) {
         <Input
           size={"middle"}
           placeholder="ค้นหาบน Pantip"
-          suffix={
-            <div className={`bg-[#FF385C] rounded-[99px] px-[12px] py-2`}>
+          prefix={
+            <div className={`bg-white rounded-[99px] px-2 py-2`}>
               <SearchOutlined
                 style={{
-                  fontSize: "15px",
-                  color: "white",
+                  fontSize: "30px",
+                  color: "black",
                 }}
               />
             </div>
           }
-          className={`rounded-[99px] shadow-md border focus:border-[#d9d9d9] pl-8 duration-300 w-full`}
+          className={`rounded-[99px] shadow-md border focus:border-[#d9d9d9]  duration-300 w-full`}
         />
       </div>
     </>

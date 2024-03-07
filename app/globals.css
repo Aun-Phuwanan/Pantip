@@ -42,7 +42,7 @@ body {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #ff385c !important;
+  color: #000000 !important;
   background-color: white !important;
   border-radius: 999px !important;
   padding: 1.3rem !important;

@@ -47,7 +47,11 @@ export default function Navbar() {
 
   return (
     <>
-      <div className="bg-white sticky top-0 w-full z-30 shadow">
+      <div
+        className={`bg-white sticky top-0 w-full z-30 max-md:shadow ${
+          scrollY > 0 && "md:shadow"
+        }`}
+      >
         <div className="max-md:hidden flex items-center justify-between h-20 px-20">
           <div className="relative w-[80px] h-[44.56px] z-40">
             <Image src="/logo.png" alt="Vercel Logo" fill />
@@ -105,7 +109,7 @@ export default function Navbar() {
         </div>
         <SearchMD scrollY={scrollY} />
         <hr className="my-5 max-md:hidden" />
-        <div className="px-6 md:px-20 pt-4 md:pt-0 md:pb-4 w-full">
+        <div className="md:px-20 pt-4 md:pt-0  w-full">
           <RichMenu />
         </div>
       </div>
