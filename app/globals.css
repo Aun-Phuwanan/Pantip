@@ -11,17 +11,20 @@ body {
   padding-right: calc(100% - 40px);
 } */
 
-:where(.css-dev-only-do-not-override-1drr2mu).ant-dropdown {
+.css-dev-only-do-not-override-1drr2mu.ant-dropdown,
+:where(.css-1drr2mu).ant-dropdown {
   width: 250px !important;
 }
 
-:where(.css-dev-only-do-not-override-1drr2mu).ant-dropdown
+.css-dev-only-do-not-override-1drr2mu.ant-dropdown
   .ant-dropdown-menu
-  .ant-dropdown-menu-item {
+  .ant-dropdown-menu-item,
+:where(.css-1drr2mu).ant-dropdown .ant-dropdown-menu .ant-dropdown-menu-item {
   padding: 10px 12px !important;
 }
 
-:where(.css-dev-only-do-not-override-1drr2mu).ant-input-outlined:focus-within {
+.css-dev-only-do-not-override-1drr2mu.ant-input-outlined:focus-within,
+:where(.css-1drr2mu).ant-input-outlined:focus-within {
   border-color: #d9d9d9 !important;
 }
 
