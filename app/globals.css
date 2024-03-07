@@ -24,3 +24,41 @@ body {
 :where(.css-dev-only-do-not-override-1drr2mu).ant-input-outlined:focus-within {
   border-color: #d9d9d9 !important;
 }
+
+.swiper-pagination-bullet {
+  background: #6c6c6c !important;
+  opacity: 0.3 !important;
+}
+
+.swiper-pagination-bullet-active {
+  background: #a6d1bd !important;
+  opacity: 1 !important;
+  width: 35px !important;
+  border-radius: 7px !important;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #ff385c !important;
+  background-color: white !important;
+  border-radius: 999px !important;
+  padding: 1.3rem !important;
+  border-width: 1px !important;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  font-size: 20px !important;
+}
+
+.swiper-button-prev.swiper-button-disabled,
+.swiper-button-next.swiper-button-disabled {
+  display: none !important;
+}
+
+@media not all and (min-width: 768px) {
+  .swiper-button-prev,
+  .swiper-button-next {
+    display: none !important;
+  }
+}

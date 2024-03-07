@@ -1,5 +1,4 @@
 "use client";
-
 import Image from "next/image";
 import React, { useEffect, useState } from "react";
 import type { MenuProps } from "antd";
@@ -104,7 +103,9 @@ export default function Navbar() {
         </div>
         <SearchMD scrollY={scrollY} />
         <hr className="my-5" />
-        <RichMenu />
+        <div className="px-6 md:px-20">
+          <RichMenu />
+        </div>
       </div>
 
       <div className="bg-[#FFFFFF] fixed w-full bottom-0 py-3 border-t z-30 md:hidden">
