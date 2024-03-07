@@ -1963,3 +1963,274 @@ export const data = [
     ),
   },
 ];
+
+export const topics = [
+  {
+    topic_id: 42563250,
+    topic_type: 1,
+    title: "คนที่เกิดยุค 90 s คุณชอบอะไรในยุคนี้บ้างครับ",
+    thumbnail_url: null,
+    content: "วธ.พัฒนาเครือข่ายภาคใต้รู้ทัน Fake News",
+    popula: true,
+    views_count: 0,
+    comments_count: 0,
+    votes_count: 0,
+    author: {
+      id: 7920162,
+      name: "สมาชิกหมายเลข 7920162",
+      avatar: {
+        original:
+          "https://p.ptcdn.info/491/015/000/7920162_17069500510611_o.jpg",
+        large: "https://p.ptcdn.info/491/015/000/7920162_17069500510611_l.jpg",
+        medium: "https://p.ptcdn.info/491/015/000/7920162_17069500510611_m.jpg",
+        small: "https://p.ptcdn.info/491/015/000/7920162_17069500510611_s.jpg",
+      },
+      slug: "/profile/7920162",
+    },
+    created_time: "2024-03-07T06:36:28Z",
+    tags: [
+      {
+        name: "เพลง",
+        slug: "เพลง",
+      },
+      {
+        name: "ดนตรี",
+        slug: "ดนตรี",
+      },
+      {
+        name: "ของเล่นเด็ก",
+        slug: "ของเล่นเด็ก",
+      },
+      {
+        name: "ชีวิตวัยรุ่น",
+        slug: "ชีวิตวัยรุ่น",
+      },
+      {
+        name: "นักแสดง",
+        slug: "นักแสดง",
+      },
+    ],
+    category: "latest",
+  },
+  {
+    topic_id: 42563243,
+    topic_type: 1,
+    title: "ธี่หยด 2 เอิ่ม เอาอะไรมาขายหรอ ภาค 1 คือแทบจะเล่าจบไปแล้ว",
+    thumbnail_url: null,
+    content: "วธ.พัฒนาเครือข่ายภาคใต้รู้ทัน Fake News",
+    popula: false,
+    views_count: 0,
+    comments_count: 2,
+    votes_count: 0,
+    author: {
+      id: 5555555,
+      name: "สมาชิกหมายเลข 5555555",
+      avatar: {
+        original:
+          "https://p.ptcdn.info/545/015/000/5555555_17096528441178_o.jpg",
+        large: "https://p.ptcdn.info/545/015/000/5555555_17096528441178_l.jpg",
+        medium: "https://p.ptcdn.info/545/015/000/5555555_17096528441178_m.jpg",
+        small: "https://p.ptcdn.info/545/015/000/5555555_17096528441178_s.jpg",
+      },
+      slug: "/profile/5555555",
+    },
+    created_time: "2024-03-07T06:31:07Z",
+    tags: [
+      {
+        name: "ธี่หยด 2 (ภาพยนตร์ไทย)",
+        slug: "ธี่หยด_2_(ภาพยนตร์ไทย)",
+      },
+      {
+        name: "นักแสดง",
+        slug: "นักแสดง",
+      },
+    ],
+    category: "latest",
+  },
+  {
+    topic_id: 42561408,
+    topic_type: 1,
+    title: "โมเมนต์สุดน่ารัก ระหว่าง ลิซ่ากับญาญ่า",
+    thumbnail_url:
+      "https://f.ptcdn.info/439/083/000/s9x3y8175ffDUY88z2BFq-s.jpg",
+    content: "วธ.พัฒนาเครือข่ายภาคใต้รู้ทัน Fake News",
+    popula: false,
+    views_count: 0,
+    comments_count: 39,
+    votes_count: 17,
+    author: {
+      id: 903893,
+      name: "สมาชิกหมายเลข 903893",
+      avatar: {
+        original: "http://p.ptcdn.info/400/005/000/903893_4202681761_21_o.jpg",
+        large: "https://p.ptcdn.info/400/005/000/903893_4202681761_21_l.jpg",
+        medium: "https://p.ptcdn.info/400/005/000/903893_4202681761_21_m.jpg",
+        small: "https://p.ptcdn.info/400/005/000/903893_4202681761_21_s.jpg",
+      },
+      slug: "/profile/903893",
+    },
+    created_time: "2024-03-06T08:50:30Z",
+    tags: [
+      {
+        name: "อุรัสยา เสปอร์บันด์ (ญาญ่า)",
+        slug: "อุรัสยา_เสปอร์บันด์_(ญาญ่า)",
+      },
+      {
+        name: "นักแสดงหญิง",
+        slug: "นักแสดงหญิง",
+      },
+      {
+        name: "ลลิษา มโนบาล (ลลิส)",
+        slug: "ลลิษา_มโนบาล_(ลลิส)",
+      },
+      {
+        name: "BLACKPINK (นักร้องนักดนตรี)",
+        slug: "BLACKPINK_(นักร้องนักดนตรี)",
+      },
+    ],
+    category: "voted",
+  },
+  {
+    topic_id: 42559126,
+    topic_type: 3,
+    title: "ทำไมคนดูไม่พอใจ กับอันดับ #1 ไผ่หลิว CHUANG ASIA เยอะคะ",
+    thumbnail_url:
+      "https://f.ptcdn.info/427/083/000/s9vab311g3w6gllK6xsQ5-s.jpg",
+    content: "วธ.พัฒนาเครือข่ายภาคใต้รู้ทัน Fake News",
+    popula: false,
+    views_count: 0,
+    comments_count: 40,
+    votes_count: 0,
+    author: {
+      id: 6070846,
+      name: "สมาชิกหมายเลข 6070846",
+      avatar: {
+        original:
+          "https://p.ptcdn.info/244/015/000/6070846_16955705102838_o.png",
+        large: "https://p.ptcdn.info/244/015/000/6070846_16955705102838_l.jpg",
+        medium: "https://p.ptcdn.info/244/015/000/6070846_16955705102838_m.jpg",
+        small: "https://p.ptcdn.info/244/015/000/6070846_16955705102838_s.jpg",
+      },
+      slug: "/profile/6070846",
+    },
+    created_time: "2024-03-05T09:00:51Z",
+    tags: [
+      {
+        name: "K-POP",
+        slug: "K-POP",
+      },
+      {
+        name: "CHUANG ASIA (รายการโทรทัศน์)",
+        slug: "CHUANG_ASIA_(รายการโทรทัศน์)",
+      },
+      {
+        name: "Miss Grand Thailand",
+        slug: "Miss_Grand_Thailand",
+      },
+      {
+        name: "รายการวาไรตี้โชว์",
+        slug: "รายการวาไรตี้โชว์",
+      },
+    ],
+    category: "trend",
+  },
+  {
+    topic_id: 42557914,
+    topic_type: 5,
+    title:
+      "ตัวละครลับซัดกันนัว หลัง “พีเค” หย่า “โยเกิร์ต” “เพชรจ้า-อาร์ต” ออกความเห็นเจอแบบนี้ “ต้องอยู่เฉย ๆ”",
+    thumbnail_url:
+      "https://f.ptcdn.info/420/083/000/s9tyndd63wRy1YAczs0x-s.jpg",
+    content: "วธ.พัฒนาเครือข่ายภาคใต้รู้ทัน Fake News",
+    popula: true,
+    views_count: 0,
+    comments_count: 23,
+    votes_count: 0,
+    author: {
+      id: 5319072,
+      name: "MONO29",
+      avatar: {
+        original:
+          "https://p.ptcdn.info/376/011/000/5319072_8089482217_20525887-729202623942549-2482778577626705704-n22_o.jpg",
+        large:
+          "https://p.ptcdn.info/376/011/000/5319072_8089482217_20525887-729202623942549-2482778577626705704-n22_l.jpg",
+        medium:
+          "https://p.ptcdn.info/376/011/000/5319072_8089482217_20525887-729202623942549-2482778577626705704-n22_m.jpg",
+        small:
+          "https://p.ptcdn.info/376/011/000/5319072_8089482217_20525887-729202623942549-2482778577626705704-n22_s.jpg",
+      },
+      slug: "/profile/5319072",
+    },
+    created_time: "2024-03-04T15:59:14Z",
+    tags: [
+      {
+        name: "MONO 29",
+        slug: "MONO_29",
+      },
+      {
+        name: "รายการโทรทัศน์",
+        slug: "รายการโทรทัศน์",
+      },
+      {
+        name: "ข่าวบันเทิง",
+        slug: "ข่าวบันเทิง",
+      },
+      {
+        name: "ณัฐฐชาช์ บุญประชม (โยเกิร์ต)",
+        slug: "ณัฐฐชาช์_บุญประชม_(โยเกิร์ต)",
+      },
+      {
+        name: "นักแสดง",
+        slug: "นักแสดง",
+      },
+    ],
+    category: "trend",
+  },
+  {
+    topic_id: 42563250,
+    topic_type: 1,
+    title: "คนที่เกิดยุค 90 s คุณชอบอะไรในยุคนี้บ้างครับ",
+    thumbnail_url: null,
+    content: "วธ.พัฒนาเครือข่ายภาคใต้รู้ทัน Fake News",
+    popula: false,
+    views_count: 0,
+    comments_count: 0,
+    votes_count: 0,
+    author: {
+      id: 7920162,
+      name: "สมาชิกหมายเลข 7920162",
+      avatar: {
+        original:
+          "https://p.ptcdn.info/491/015/000/7920162_17069500510611_o.jpg",
+        large: "https://p.ptcdn.info/491/015/000/7920162_17069500510611_l.jpg",
+        medium: "https://p.ptcdn.info/491/015/000/7920162_17069500510611_m.jpg",
+        small: "https://p.ptcdn.info/491/015/000/7920162_17069500510611_s.jpg",
+      },
+      slug: "/profile/7920162",
+    },
+    created_time: "2024-03-07T06:36:28Z",
+    tags: [
+      {
+        name: "เพลง",
+        slug: "เพลง",
+      },
+      {
+        name: "ดนตรี",
+        slug: "ดนตรี",
+      },
+      {
+        name: "ของเล่นเด็ก",
+        slug: "ของเล่นเด็ก",
+      },
+      {
+        name: "ชีวิตวัยรุ่น",
+        slug: "ชีวิตวัยรุ่น",
+      },
+      {
+        name: "นักแสดง",
+        slug: "นักแสดง",
+      },
+    ],
+    category: "latest",
+  },
+];

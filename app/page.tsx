@@ -1,9 +1,35 @@
 import Image from "next/image";
+import { topics } from "@/components/file";
+import dayjs from "dayjs";
+import "dayjs/locale/th";
+dayjs.locale("th");
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <Image src="/logo.png" alt="Vercel Logo" width={100} height={24} />
+    <main className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 px-6 md:px-20 pb-20 pt-6  md:py-6">
+      {topics.map((item, index) => (
+        <div key={index}>
+          <div className="relative w-full mb-4">
+            <Image
+              src={item.author.avatar.original}
+              alt="Vercel Logo"
+              width={1000}
+              height={1000}
+              className="object-cover h-[324px] md:h-[351px] lg:h-[270px] xl:h-[354px]  rounded-xl"
+            />
+            {item.popula && (
+              <div className="absolute bg-gray-200 top-4 left-4 rounded-[99px] px-4 py-2">
+                ยอดนิยม
+              </div>
+            )}
+          </div>
+          <p className=" truncate">{item.title}</p>
+          <p className="text-[#717171] truncate">{item.content}</p>
+          <p className="text-[#717171]">
+            {dayjs(item.created_time).format("MMM YYYY")}
+          </p>
+        </div>
+      ))}
     </main>
   );
 }
