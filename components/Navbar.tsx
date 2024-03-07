@@ -78,14 +78,14 @@ export default function Navbar() {
               <span>คอมมูนิตี้</span>
               <Dropdown menu={{ items }} trigger={["click"]}>
                 <a>
-                  <Space className="flex items-center gap-x-4 border rounded-[99px] p-2 cursor-pointer">
+                  <Space className="flex items-center border rounded-[99px] p-2 cursor-pointer">
                     <svg
                       xmlns="http://www.w3.org/2000/svg"
                       viewBox="0 0 32 32"
                       aria-hidden="true"
                       role="presentation"
                       focusable="false"
-                      className="block fill-none h-4 w-4 stroke-[currentcolor] stroke-[3] overflow-visible"
+                      className="block fill-none h-4 w-4 stroke-[currentcolor] stroke-[3] overflow-visible ml-1 mr-2"
                     >
                       <g fill="none">
                         <path d="M2 16h28M2 24h28M2 8h28"></path>
@@ -119,7 +119,7 @@ export default function Navbar() {
           <div className="flex justify-center gap-x-10">
             <div className="flex flex-col items-center justify-center gap-1">
               <HomeOutlined style={{ fontSize: "24px", color: "#e81948" }} />
-              <p className="text-[#e81948] text-[10px]">หน้าหลัก</p>
+              <p className="text-[rgb(232,25,72)] text-[10px]">หน้าหลัก</p>
             </div>
             <div className="flex flex-col items-center justify-center gap-1">
               <LikeOutlined style={{ fontSize: "24px", color: "#717171" }} />

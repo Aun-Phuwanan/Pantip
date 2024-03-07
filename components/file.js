@@ -12,8 +12,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -77,8 +77,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g id="guides"></g>
         <g id="Layer_2"></g>
@@ -119,8 +119,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g id="guides"></g>
         <g id="Layer_2"></g>
@@ -166,8 +166,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -200,8 +200,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -237,8 +237,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -373,8 +373,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -404,8 +404,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -437,8 +437,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -468,8 +468,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -527,8 +527,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -570,8 +570,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -619,8 +619,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -649,8 +649,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <polygon
@@ -674,8 +674,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -729,8 +729,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -767,8 +767,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -798,8 +798,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -829,8 +829,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -910,8 +910,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <path
@@ -935,8 +935,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -962,8 +962,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1011,8 +1011,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1064,8 +1064,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1109,8 +1109,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1165,8 +1165,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <path
@@ -1190,8 +1190,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1237,8 +1237,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1272,8 +1272,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1345,8 +1345,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1444,8 +1444,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1477,8 +1477,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1506,8 +1506,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1537,8 +1537,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1584,8 +1584,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1649,8 +1649,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1872,8 +1872,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>
@@ -1933,8 +1933,8 @@ export const data = [
         x="0px"
         y="0px"
         viewBox="0 0 40 40"
-        width="48"
-        height="48"
+        width="30"
+        height="30"
       >
         <g>
           <g>

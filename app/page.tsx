@@ -1,12 +1,32 @@
+"use client";
 import Image from "next/image";
 import { topics } from "@/components/file";
 import dayjs from "dayjs";
 import "dayjs/locale/th";
+import { useEffect, useState } from "react";
 dayjs.locale("th");
 
 export default function Home() {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollY(window.scrollY);
+    };
+
+    handleScroll();
+    window.addEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
-    <main className=" grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 px-6 md:px-20 pb-20 pt-6  md:py-6">
+    <main
+      className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10 px-6 md:px-20 pb-20 md:py-6 ${
+        scrollY > 0 ? "mt-[140px] -translate-y-28" : "pt-6"
+      }`}
+    >
       {topics.map((item, index) => (
         <div key={index}>
           <div className="relative w-full mb-4">

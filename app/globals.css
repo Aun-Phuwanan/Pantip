@@ -45,13 +45,23 @@ body {
   color: #000000 !important;
   background-color: white !important;
   border-radius: 999px !important;
-  padding: 1.3rem !important;
+  width: 30px !important;
+  height: 30px !important;
+  padding: 0px !important;
   border-width: 1px !important;
+}
+
+.swiper-button-next {
+  transform: translateY(-4px) translateX(8px) !important;
+}
+
+.swiper-button-prev {
+  transform: translateY(-4px) translateX(-8px) !important;
 }
 
 .swiper-button-prev:after,
 .swiper-button-next:after {
-  font-size: 20px !important;
+  font-size: 10px !important;
 }
 
 .swiper-button-prev.swiper-button-disabled,
