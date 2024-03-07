@@ -6,6 +6,7 @@ import { Dropdown, Space } from "antd";
 import { HomeOutlined, LikeOutlined } from "@ant-design/icons";
 import SearchMD from "./Search";
 import RichMenu from "./RichMenu";
+import { StyleProvider } from "@ant-design/cssinjs";
 
 const items: MenuProps["items"] = [
   {
@@ -68,38 +69,39 @@ export default function Navbar() {
             <button className="p-2">Pantip Hitz</button>
             <button className="p-2">Explore</button>
           </div>
-
-          <div className=" relative z-40 flex items-center gap-x-5 text-[#222222] text-sm">
-            <span>คอมมูนิตี้</span>
-            <Dropdown menu={{ items }} trigger={["click"]}>
-              <a>
-                <Space className="flex items-center gap-x-4 border rounded-[99px] p-2 cursor-pointer">
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 32 32"
-                    aria-hidden="true"
-                    role="presentation"
-                    focusable="false"
-                    className="block fill-none h-4 w-4 stroke-[currentcolor] stroke-[3] overflow-visible"
-                  >
-                    <g fill="none">
-                      <path d="M2 16h28M2 24h28M2 8h28"></path>
-                    </g>
-                  </svg>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 32 32"
-                    aria-hidden="true"
-                    role="presentation"
-                    focusable="false"
-                    className="block h-[32px] w-[32px] text-[#717171] fill-[currentcolor]"
-                  >
-                    <path d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 0 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z"></path>
-                  </svg>
-                </Space>
-              </a>
-            </Dropdown>
-          </div>
+          <StyleProvider hashPriority="high">
+            <div className=" relative z-40 flex items-center gap-x-5 text-[#222222] text-sm">
+              <span>คอมมูนิตี้</span>
+              <Dropdown menu={{ items }} trigger={["click"]}>
+                <a>
+                  <Space className="flex items-center gap-x-4 border rounded-[99px] p-2 cursor-pointer">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      aria-hidden="true"
+                      role="presentation"
+                      focusable="false"
+                      className="block fill-none h-4 w-4 stroke-[currentcolor] stroke-[3] overflow-visible"
+                    >
+                      <g fill="none">
+                        <path d="M2 16h28M2 24h28M2 8h28"></path>
+                      </g>
+                    </svg>
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 32 32"
+                      aria-hidden="true"
+                      role="presentation"
+                      focusable="false"
+                      className="block h-[32px] w-[32px] text-[#717171] fill-[currentcolor]"
+                    >
+                      <path d="M16 .7C7.56.7.7 7.56.7 16S7.56 31.3 16 31.3 31.3 24.44 31.3 16 24.44.7 16 .7zm0 28c-4.02 0-7.6-1.88-9.93-4.81a12.43 12.43 0 0 1 6.45-4.4A6.5 6.5 0 0 1 9.5 14a6.5 6.5 0 0 1 13 0 6.51 6.51 0 0 1-3.02 5.5 12.42 12.42 0 0 1 6.45 4.4A12.67 12.67 0 0 1 16 28.7z"></path>
+                    </svg>
+                  </Space>
+                </a>
+              </Dropdown>
+            </div>
+          </StyleProvider>
         </div>
         <SearchMD scrollY={scrollY} />
         <hr className="my-5 max-md:hidden" />
