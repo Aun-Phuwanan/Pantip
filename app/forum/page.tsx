@@ -1,7 +1,7 @@
 "use client";
 import { announce } from "@/util/announce";
 import { topics } from "@/util/topics-recommend";
-import Image from "next/image";
+import { MessageOutlined } from "@ant-design/icons";
 import Cards from "@/components/Cards";
 import Title from "@/components/Title";
 import dayjs from "dayjs";
@@ -14,6 +14,18 @@ dayjs.locale("th");
 export default function Home() {
   const [scrollY, setScrollY] = useState<number>(0);
   const [topic, setTopic] = useState<boolean>(true);
+  const [latest, setLatest] = useState<number>(0);
+
+  const post = [
+    "กระทู้ทั้งหมด",
+    "คลังกระทู้โปรด",
+    "ถามตอบ",
+    "พูดคุย",
+    "รีวิว",
+    "โพล",
+    "ข่าว",
+    "ซื้อขาย",
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -74,21 +86,38 @@ export default function Home() {
             </div>
           ))}
         </div>
-        {/* <div
-            className={`grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 gap-10`}
+      </div>
+      <hr className="w-full my-6" />
+      <Title text={"กระทู้ล่าสุด"} />
+
+      <div className="flex flex-wrap justify-center gap-3 w-full my-4 text-sm">
+        {post.map((text, index) => (
+          <button
+            onClick={() => setLatest(index)}
+            className={`bg-white py-2 px-4 border rounded-full ${
+              latest == index
+                ? "shadow-lg text-[#222222]"
+                : " text-gray-500 shadow-none"
+            }`}
           >
-            {topics.map((item, index) => (
-              <div key={index}>
-                <Cards item={item}>
-                  <div
-                    className={`absolute top-4 right-4 rounded-[99px] px-4 py-2 text-gray-200`}
-                  >
-                    {item.message}
-                  </div>
-                </Cards>
+            {text}
+          </button>
+        ))}
+      </div>
+      <div
+        className={`grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-10`}
+      >
+        {topics.map((item, index) => (
+          <div key={index} className="cursor-pointer">
+            <Cards item={item}>
+              <div
+                className={`absolute top-4 right-4 rounded-[99px] px-4 py-2 text-gray-200 bg-gray-500 bg-opacity-60`}
+              >
+                <MessageOutlined /> {item.message}
               </div>
-            ))}
-          </div> */}
+            </Cards>
+          </div>
+        ))}
       </div>
     </main>
   );
