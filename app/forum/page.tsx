@@ -93,6 +93,7 @@ export default function Home() {
       <div className="flex flex-wrap justify-center gap-3 w-full my-4 text-sm">
         {post.map((text, index) => (
           <button
+            key={index}
             onClick={() => setLatest(index)}
             className={`bg-white py-2 px-4 border rounded-full ${
               latest == index
