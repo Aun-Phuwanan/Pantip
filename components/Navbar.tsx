@@ -7,6 +7,7 @@ import { HomeOutlined, LikeOutlined } from "@ant-design/icons";
 import SearchMD from "./Search";
 import RichMenu from "./RichMenu";
 import { StyleProvider } from "@ant-design/cssinjs";
+import Link from "next/link";
 
 const items: MenuProps["items"] = [
   {
@@ -75,7 +76,7 @@ export default function Navbar() {
           </div>
           <StyleProvider hashPriority="high">
             <div className=" relative z-40 flex items-center gap-x-5 text-[#222222] text-sm">
-              <span>คอมมูนิตี้</span>
+              <Link href={"/forum"}>คอมมูนิตี้</Link>
               <Dropdown menu={{ items }} trigger={["click"]}>
                 <a>
                   <Space className="flex items-center border rounded-[99px] p-2 cursor-pointer">

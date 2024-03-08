@@ -1,9 +1,10 @@
 "use client";
 import Image from "next/image";
-import { topics } from "@/components/file";
+import { topics } from "@/util/file";
 import dayjs from "dayjs";
 import "dayjs/locale/th";
 import { useEffect, useState } from "react";
+import Cards from "@/components/Cards";
 dayjs.locale("th");
 
 export default function Home() {
@@ -29,25 +30,13 @@ export default function Home() {
     >
       {topics.map((item, index) => (
         <div key={index}>
-          <div className="relative w-full mb-4">
-            <Image
-              src={item.author.avatar.original}
-              alt="Vercel Logo"
-              width={1000}
-              height={1000}
-              className="object-cover h-[324px] md:h-[351px] lg:h-[270px] xl:h-[354px]  rounded-xl"
-            />
+          <Cards item={item}>
             {item.popula && (
               <div className="absolute bg-gray-200 top-4 left-4 rounded-[99px] px-4 py-2">
                 ยอดนิยม
               </div>
             )}
-          </div>
-          <p className=" truncate">{item.title}</p>
-          <p className="text-[#717171] truncate">{item.content}</p>
-          <p className="text-[#717171]">
-            {dayjs(item.created_time).format("MMM YYYY")}
-          </p>
+          </Cards>
         </div>
       ))}
     </main>
