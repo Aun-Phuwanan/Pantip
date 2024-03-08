@@ -1,5 +1,5 @@
 "use client";
-"use client";
+
 import Image from "next/image";
 import dayjs from "dayjs";
 import "dayjs/locale/th";

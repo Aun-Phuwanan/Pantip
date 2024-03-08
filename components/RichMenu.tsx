@@ -7,7 +7,7 @@ import "swiper/css/navigation";
 import "swiper/css/free-mode";
 import "swiper/css/scrollbar";
 
-import { data } from "./file";
+import { data } from "../util/file";
 export default function RichMenu() {
   const [menu, setMenu] = useState<number>(100);
 
