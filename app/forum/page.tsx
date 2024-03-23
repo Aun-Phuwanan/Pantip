@@ -39,6 +39,8 @@ export default function Home() {
     };
   }, []);
 
+  function name() {}
+
   return (
     <main
       className={`px-6 md:px-20 pb-20 md:py-6 ${
@@ -89,7 +91,6 @@ export default function Home() {
       </div>
       <hr className="w-full my-6" />
       <Title text={"กระทู้ล่าสุด"} />
-
       <div className="flex flex-wrap justify-center gap-3 w-full my-4 text-sm">
         {post.map((text, index) => (
           <button
