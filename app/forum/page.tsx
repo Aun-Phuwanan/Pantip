@@ -39,8 +39,6 @@ export default function Home() {
     };
   }, []);
 
-  function name() {}
-
   return (
     <main
       className={`px-6 md:px-20 pb-20 md:py-6 ${
